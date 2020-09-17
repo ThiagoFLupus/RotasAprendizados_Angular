@@ -1,0 +1,20 @@
+<div>
+    <table class="table" style="max-width: 70%;">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col"> Nome </th>
+          <th scope="col"> {{''}} </th>
+        </tr>
+      </thead>
+      <tbody class="tbody-light">
+        <tr *ngFor="let cliente of clientes">
+          <td scope="col">{{ cliente.id }}</td>
+          <td scope="col">{{ cliente.nome }}</td>
+          <td>
+            <button class="btn btn-primary" [routerLink]="['cliente', cliente.id]"> Info + </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</div>

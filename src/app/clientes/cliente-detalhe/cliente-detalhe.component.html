@@ -1,0 +1,16 @@
+<div class="card border-success mb-3" style="max-width: 70%;">
+    <div class="card-header bg-transparent border-success"> 
+        <span> <b>Dados do Cliente de número:</b> </span> {{ cliente.id }}
+    </div>
+
+    <div class="card-body text-success">
+        <p> 
+            <span style="color: black;"><b> Nome: </b></span>  {{ cliente.nome }} </p>
+        <p> 
+            <span style="color: black;"><b> E-mail: </b></span>  {{ cliente.email }} </p>
+    </div>
+
+    <br><br>
+
+    <button class="btn btn-primary" routerLink="/clientes"> Voltar </button>
+</div>

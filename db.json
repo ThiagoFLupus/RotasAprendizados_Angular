@@ -1,0 +1,49 @@
+{
+  "clientes": [
+    {"id": 1,
+     "nome": "Akira",
+     "email": "akiraPet@lupus.com"
+    },
+    {"id": 2,
+     "nome": "Chokito",
+     "email": "chokito@lupus.com"
+    },
+    {"id": 3,
+     "nome": "Calopsita",
+     "email": "calopsita@lupus.com"
+    },
+    {"id": 4,
+      "nome": "Leite condensado",
+      "email": "lca@lupus.com"
+    },
+    {"id": 5,
+      "nome": "TwoMew",
+      "email": "2m@lupus.com"
+    },
+    {"id": 6,
+      "nome": "Lana",
+      "email": "lana@lupus.com"
+    },
+    {"id": 7,
+      "nome": "Pitchula",
+      "email": "pitchula@lupus.com"
+    },
+    {"id": 8,
+      "nome": "Lilica",
+      "email": "lilica@lupus.com"
+    },
+    {"id": 9,
+      "nome": "Calopsita",
+      "email": "calopsita@lupus.com"
+    },
+    {"id": 10,
+      "nome": "Calopsita",
+      "email": "calopsita@lupus.com"
+    }
+  ],
+  "usuario": [
+    {"id": 1,
+     "usuario": "thiago",
+    "senha": 12345}
+  ]
+}
